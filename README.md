@@ -1,8 +1,9 @@
 <h1 align="center">
 	<img alt="GoStack" src="logo.svg" width="200px" />
 </h1>
-
-<img alt="Mockup" src="https://res.cloudinary.com/dpicpf4yh/image/upload/v1592254901/gobarber_ag8weh.png">
+<h1 align="center">
+	<img alt="Mockup" src="https://res.cloudinary.com/dpicpf4yh/image/upload/v1592254901/gobarber_ag8weh.png">
+</h1>
 
 ## GoBarber 2020 - Curso Rocketseat
 
