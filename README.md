@@ -1,9 +1,10 @@
 <h1 align="center">
 	<img alt="GoStack" src="logo.svg" width="200px" />
 </h1>
-<center>
+<h1 align="center">
 	<img alt="Mockup" src="https://res.cloudinary.com/dpicpf4yh/image/upload/v1592254901/gobarber_ag8weh.png">
-</center>
+</h1>
+
 ## GoBarber 2020 - Curso Rocketseat
 
 GoBarber é uma aplicação que ajuda controlar agendamentos de clientes a ida até a barbearia. Com ele o cliente efetua um agendamento e o barbeiro consegue controlar o fluxo de seus clientes pela web ou pelo celular.
