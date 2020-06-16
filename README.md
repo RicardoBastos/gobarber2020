@@ -15,7 +15,7 @@ GoBarber é uma aplicação que ajuda controlar agendamentos de clientes a ida a
 
 ## Tecnologias Usadas
 
-[Node.js](https://nodejs.org/en/), [TypeScript](https://www.typescriptlang.org/), [Express](https://expressjs.com/pt-br/), Multer](https://github.com/expressjs/multer), [TypeORM](https://typeorm.io/#/), [JWT-token](https://jwt.io/), [uuid v4](https://github.com/thenativeweb/uuidv4/), [PostgreSQL](https://www.postgresql.org/), [Date-fns](https://date-fns.org/), [Jest](https://jestjs.io/), [SuperTest](https://github.com/visionmedia/supertest), [Husky](https://github.com/typicode/husky), [Commitlint](https://github.com/conventional-changelog/commitlint), [Commitizen](https://github.com/commitizen/cz-cli), [Eslint](https://eslint.org/), [Prettier](https://prettier.io/), [EditorConfig](https://editorconfig.org/)
+[Node.js](https://nodejs.org/en/), [TypeScript](https://www.typescriptlang.org/), [Express](https://expressjs.com/pt-br/), [Multer](https://github.com/expressjs/multer), [TypeORM](https://typeorm.io/#/), [JWT-token](https://jwt.io/), [uuid v4](https://github.com/thenativeweb/uuidv4/), [PostgreSQL](https://www.postgresql.org/), [Date-fns](https://date-fns.org/), [Jest](https://jestjs.io/), [SuperTest](https://github.com/visionmedia/supertest), [Husky](https://github.com/typicode/husky), [Commitlint](https://github.com/conventional-changelog/commitlint), [Commitizen](https://github.com/commitizen/cz-cli), [Eslint](https://eslint.org/), [Prettier](https://prettier.io/), [EditorConfig](https://editorconfig.org/)
 
 **Clone o Projeto**
 
@@ -64,30 +64,18 @@ $ yarn dev:server
 
 ## Tecnologias Usadas
 
-[ReactJS](https://reactjs.org/),[TypeScript](https://www.typescriptlang.org/),[React Router DOM](https://reacttraining.com/react-router/),[React Icons](https://react-icons.netlify.com/#/),[UnForm](https://unform.dev/),(https://rocketseat.com.br/),[Yup](https://github.com/jquense/yup),[Styled Components](https://styled-components.com/),[Polished](https://github.com/styled-components/polished),[Axios](https://github.com/axios/axios),[Husky](https://github.com/typicode/husky),[Commitlint](https://github.com/conventional-changelog/commitlint),[Commitizen](https://github.com/commitizen/cz-cli),[Eslint](https://eslint.org/),[Prettier](https://prettier.io/), EditorConfig](https://editorconfig.org/)
+[ReactJS](https://reactjs.org/), [TypeScript](https://www.typescriptlang.org/), [React Router DOM](https://reacttraining.com/react-router/), [React Icons](https://react-icons.netlify.com/#/), [UnForm](https://unform.dev/), [Yup](https://github.com/jquense/yup), [Styled Components](https://styled-components.com/), [Polished](https://github.com/styled-components/polished), [Axios](https://github.com/axios/axios), [Husky](https://github.com/typicode/husky), [Commitlint](https://github.com/conventional-changelog/commitlint), [Commitizen](https://github.com/commitizen/cz-cli), [Eslint](https://eslint.org/), [Prettier](https://prettier.io/), [EditorConfig](https://editorconfig.org/)
 
-## 💻 Getting started
-
-### Requirements
-
-- Have this application's [API](https://github.com/EliasGcf/gobarber-api) running
-
-**Clone the project and access the folder**
+**Para rodar o Frontend**
 
 ```bash
-$ git clone https://github.com/EliasGcf/gobarber-web.git && cd gobarber-web
-```
-
-**Follow the steps below**
-
-```bash
-# Install the dependencies
+# Instalar as dependências
 $ yarn
 
-# Be sure the file 'src/services/api.ts' have the IP to your API
-
-# Start the client
+# Start o projeto
 $ yarn start
+
+# Necessário a API estar rodando
 ```
 
 ---
