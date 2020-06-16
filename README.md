@@ -11,17 +11,19 @@ GoBarber é uma aplicação que ajuda controlar agendamentos de clientes a ida a
 
 ---
 
-## API
+## Requisitos
 
-## Tecnologias Usadas
-
-[Node.js](https://nodejs.org/en/), [TypeScript](https://www.typescriptlang.org/), [Express](https://expressjs.com/pt-br/), [Multer](https://github.com/expressjs/multer), [TypeORM](https://typeorm.io/#/), [JWT-token](https://jwt.io/), [uuid v4](https://github.com/thenativeweb/uuidv4/), [PostgreSQL](https://www.postgresql.org/), [Date-fns](https://date-fns.org/), [Jest](https://jestjs.io/), [SuperTest](https://github.com/visionmedia/supertest), [Husky](https://github.com/typicode/husky), [Commitlint](https://github.com/conventional-changelog/commitlint), [Commitizen](https://github.com/commitizen/cz-cli), [Eslint](https://eslint.org/), [Prettier](https://prettier.io/), [EditorConfig](https://editorconfig.org/)
-
-**Clone o Projeto**
+Tenha o yarn ou npm instalado
 
 ```bash
-$ git clone https://github.com/ricardobastos/gobarber2020.git && cd gobarber2020
+ $ git clone https://github.com/ricardobastos/gobarber2020.git && cd gobarber2020
 ```
+
+### API
+
+#### Tecnologias Usadas
+
+[Node.js](https://nodejs.org/en/), [TypeScript](https://www.typescriptlang.org/), [Express](https://expressjs.com/pt-br/), [Multer](https://github.com/expressjs/multer), [TypeORM](https://typeorm.io/#/), [JWT-token](https://jwt.io/), [uuid v4](https://github.com/thenativeweb/uuidv4/), [PostgreSQL](https://www.postgresql.org/), [Date-fns](https://date-fns.org/), [Jest](https://jestjs.io/), [SuperTest](https://github.com/visionmedia/supertest), [Husky](https://github.com/typicode/husky), [Commitlint](https://github.com/conventional-changelog/commitlint), [Commitizen](https://github.com/commitizen/cz-cli), [Eslint](https://eslint.org/), [Prettier](https://prettier.io/), [EditorConfig](https://editorconfig.org/)
 
 **Para rodar a API siga os passos abaixo**
 
@@ -60,9 +62,9 @@ $ yarn dev:server
 
 ---
 
-## FRONTEND
+### FRONTEND
 
-## Tecnologias Usadas
+#### Tecnologias Usadas
 
 [ReactJS](https://reactjs.org/), [TypeScript](https://www.typescriptlang.org/), [React Router DOM](https://reacttraining.com/react-router/), [React Icons](https://react-icons.netlify.com/#/), [UnForm](https://unform.dev/), [Yup](https://github.com/jquense/yup), [Styled Components](https://styled-components.com/), [Polished](https://github.com/styled-components/polished), [Axios](https://github.com/axios/axios), [Husky](https://github.com/typicode/husky), [Commitlint](https://github.com/conventional-changelog/commitlint), [Commitizen](https://github.com/commitizen/cz-cli), [Eslint](https://eslint.org/), [Prettier](https://prettier.io/), [EditorConfig](https://editorconfig.org/)
 
@@ -74,6 +76,36 @@ $ yarn
 
 # Start o projeto
 $ yarn start
+
+# Necessário a API estar rodando
+```
+
+---
+
+### MOBILE
+
+#### Tecnologias Usadas
+
+[ReactJS](https://reactjs.org/), [TypeScript](https://www.typescriptlang.org/)
+, [React Native](https://reactnative.dev/), [React Navigation](https://reactnavigation.org/)
+, [React Native Vector Icons](https://github.com/oblador/react-native-vector-icons), [UnForm](https://unform.dev/)
+, [Yup](https://github.com/jquense/yup), [Styled Components](https://styled-components.com/)
+, [Axios](https://github.com/axios/axios), [Husky](https://github.com/typicode/husky)
+, [Commitlint](https://github.com/conventional-changelog/commitlint), [Commitizen](https://github.com/commitizen/cz-cli), [Eslint](https://eslint.org/), [Prettier](https://prettier.io/), [EditorConfig](https://editorconfig.org/)
+
+**Para rodar o Mobile**
+
+```bash
+# Instalar as dependências
+$ yarn
+
+# Certifique que 'src/services/api.ts' tenha seu IP
+
+# Para rodar android
+$ yarn android
+
+# Para rodar ios
+$ yarn ios
 
 # Necessário a API estar rodando
 ```
